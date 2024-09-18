@@ -81,6 +81,7 @@ cv2.destroyAllWindows()
 
 ```
 ![image](https://github.com/user-attachments/assets/19e3d705-59db-4cf2-8198-fcad4fc43566)
+
 ii)Draw a circle at the center of the image.
 ```
 import cv2
@@ -103,6 +104,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/5cb60bb0-cd7b-43dc-a5a3-ceb35f8b1264)
+
 iii)Draw a rectangle around a specific region of interest in the image.
 ```
 import cv2
@@ -119,6 +121,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/00436f97-f39d-47da-8327-0b2bae8f6d2b)
+
 iv)Add the text "PANDA" at the top-left corner of the image.
 ```
 import cv2
@@ -159,7 +162,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/b70a067b-8f78-468c-a30e-3aa48f509a0b)
-![image](https://github.com/user-attachments/assets/1b6eaf6c-c0ca-48d9-813d-bfc31f6c6adb)
+
 ii.)Convert the image from RGB to GRAY and display it.
 ```
 import cv2
@@ -173,7 +176,6 @@ cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/d53cbd8f-0b8b-4de4-906f-17f740e1250c)
 
-![image](https://github.com/user-attachments/assets/34412455-72ad-4743-8a33-8d2e5de65c1d)
 iii.)Convert the image from RGB to YCrCb and display it.
 ```
 import cv2
@@ -185,8 +187,9 @@ cv2.imshow('RGB-2-YCrCb',YCrCb1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/f0da8054-e680-405e-8216-e9e7e6467844)
+
 ![image](https://github.com/user-attachments/assets/120abf91-2adf-48d3-b603-a4ca2819f151)
+
 iv.)Convert the HSV image back to RGB and display it.
 ```
 import cv2
@@ -198,7 +201,7 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/a6730705-bd76-4b2f-a8b5-7c67d9c7117c)
+
 ![image](https://github.com/user-attachments/assets/cce63c63-54fe-4352-b602-cfba404f1945)
 
 
@@ -228,8 +231,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/97fd2db4-a2e9-40b7-b99e-01ff88b059e4)
-![image](https://github.com/user-attachments/assets/74844a28-7550-488e-bf71-f192146959ac)
-![image](https://github.com/user-attachments/assets/7826a6aa-23cc-4c50-ab1c-cbfd80c2bb68)
+
+
 
 ### v)Image Resizing
 ```
@@ -244,7 +247,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/4b7910d9-aca4-4d27-8853-03537b7d7053)
-![image](https://github.com/user-attachments/assets/77f22f3a-21d3-4d60-8e39-2a7ac126a956)
+
 
 ### vi)Image Cropping
 ```
@@ -282,7 +285,7 @@ cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/5901c7e5-253b-42b3-81b2-971864480a71)
 
-![image](https://github.com/user-attachments/assets/092d2f65-0c87-4749-adeb-df7cb8bb5cd5)
+
 ii.)Flip the original image vertically and display it
 ```
 import cv2
@@ -297,7 +300,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![image](https://github.com/user-attachments/assets/7fdbc046-0452-4136-8e4f-77f85a07570d)
-![image](https://github.com/user-attachments/assets/4559e4dd-40cd-47c9-b222-922e0ee29075)
+
 
 ### viii)Write and Save the Modified Image
 ```
